@@ -1,0 +1,17 @@
+#Command
+#Electron Density Maps
+#####################################################################################
+#Fetching the map
+fetch 7A1U, type=2fofc
+isomesh name-new-entry, name-of-map,1.0, name-selection-to-contour, carve=2
+
+map_trim *, resi 135-138, 4
+#“*” means all
+#Last number is how many angstroms perimeter will be trimmed
+
+
+PyMOL>isomesh picture-name, name-of-map,1.0, name-selection-you-wishto-contour, carve=2.
+fetch
+isomesh res24-26_mesh, 7c8j_2fofc_res24-26,1.0, sele, carve=2
+#		^ new name 		^name of map	^selection
+fetch 7c8j, type=2fofc
