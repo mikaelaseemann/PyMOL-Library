@@ -1,0 +1,5 @@
+#Make 2 selections
+#a> C- 900-1750 (AA)
+#b> H- 500-1300 (AA)
+#Align both the selections using slign command
+align sel-1. sel-2
