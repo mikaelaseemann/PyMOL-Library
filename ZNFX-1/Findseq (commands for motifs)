@@ -1,8 +1,11 @@
 If you want to search for a specific sequence (amino acid or nucleic acid), use the following:
+#first run findseq
+run findseq.py
 
-For motifs, use:
+#For motifs, use:
 findseq starting AA. *protein ID
-[findseq G. *GKT, protein ID]
+findseq G. *GKT, protein ID
+
 
 #change to proper directory where findseq is:
 cd ~
