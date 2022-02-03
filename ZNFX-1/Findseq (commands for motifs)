@@ -3,3 +3,14 @@ If you want to search for a specific sequence (amino acid or nucleic acid), use 
 For motifs, use:
 findseq starting AA. *protein ID
 [findseq G. *GKT, protein ID]
+
+#change to proper directory where findseq is:
+cd ~
+
+# go to /tmp
+cd /tmp
+
+# examples of spaces on Windows
+cd \"program files"
+cd C:\Users\Mikaela\Documents\Butcher Lab Documents\ZNFX-1\PyMOL\__pycache__
+#you will get messag "cd: now in C:\Users\Mikaela\Documents\Butcher Lab Documents\ZNFX-1\PyMOL\__pycache__"
