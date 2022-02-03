@@ -1,5 +1,6 @@
 If you want to search for a specific sequence (amino acid or nucleic acid), use the following:
-#first run findseq
+#first change to the correct directory and run findseq
+cd C:\Users\Mikaela\Documents\Butcher Lab Documents\ZNFX-1\PyMOL
 run findseq.py
 
 #For motifs, use:
