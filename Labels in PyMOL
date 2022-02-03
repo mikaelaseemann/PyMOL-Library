@@ -9,9 +9,9 @@ set label_color, color-name, object-name  #eg, set label-color, magenta, /protei
 
 # per-atom:
 set label_color, color-name, selection    #eg, set label-color, marine, /protein/A/A/23/CA
-
+#label font. Default is 11. DO NOT choose 0-4. No longer supported & PyMOL will default font=5 for the rest of the session.
 set label_font_id, 12
-#standard default font is 11. DO NOT choose 0-4. They are no longer supported and PyMOL will default font=5 for the rest of the session.
+
 
 set label_size, -2  #results in a size of 2 Angstroms
 
