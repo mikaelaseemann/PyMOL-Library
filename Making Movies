@@ -1,0 +1,23 @@
+ #commands for making movies
+ #standard speed is 30 fps (frames per second)
+ #example: 20 x 30 fps = 600 frames
+PyMOL>mset 1 x 600
+PyMOL>mview store, 1
+ MovieView: Setting frame 1.
+ MovieView: reinterpolating all frames 1 to 600 (wrapping).
+PyMOL>mview store, 200
+ MovieView: Setting frame 200.
+ MovieView: reinterpolating all frames 1 to 600 (wrapping).
+PyMOL>turn y, 180
+PyMOL>mview store, 100
+ MovieView: Setting frame 100.
+ MovieView: reinterpolating all frames 1 to 600 (wrapping).
+PyMOL>mplay
+PyMOL>mstop
+PyMOL>frame 001
+PyMOL>mview store , 300
+ MovieView: Setting frame 300.
+ MovieView: reinterpolating all frames 1 to 600 (wrapping).
+PyMOL>mview store, 350
+ MovieView: Setting frame 350.
+ MovieView: reinterpolating all frames 1 to 600 (wrapping).
