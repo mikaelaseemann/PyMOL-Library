@@ -9,3 +9,10 @@ rep = 1 or 0: controls whether the representations are stored {default: 1}
 frame = 1 or 0: controls whether the frame is stored {default: 1}
 animate = float: animation duration in seconds {default: scene_animation_duration}
 new_key = string: the new name for the scene
+
+
+The Scene command has quite a few actions/options that can be enabled by using the mouse and the keyboard through the usual Scene command or hot-keys. Also, you can shift the scenes around using the new Scene_buttons and just dragging the scene names.
+
+Storing scenes
+# store this scene in the next spot, giving it the default name.
+scene auto, store
