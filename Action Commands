@@ -1,0 +1,11 @@
+Arguments
+key = string, new, auto, or *: use new for an automatically numbered new scene, use auto for the current scene (if one exists), and use * for all scenes (clear and recall actions only).
+action = store, recall, insert_after, insert_before, next, previous, update, rename, clear or append: (default = recall). If rename, then a new_key argument must be explicitly defined.
+message = string: a text message to display with the scene.
+view = 1 or 0: controls whether the view is stored {default: 1}
+color = 1 or 0: controls whether colors are stored {default: 1}
+active = 1 or 0: controls whether activity (objects enabled/disabled) is stored {default: 1}
+rep = 1 or 0: controls whether the representations are stored {default: 1}
+frame = 1 or 0: controls whether the frame is stored {default: 1}
+animate = float: animation duration in seconds {default: scene_animation_duration}
+new_key = string: the new name for the scene
