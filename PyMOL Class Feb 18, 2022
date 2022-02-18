@@ -1,0 +1,28 @@
+list: [ 
+list[0]: 's'
+for loop and while
+for <variable> in <array> :
+#------
+#------ loop body
+
+
+each element in array will do the action
+           5404.85, 5232.43, 5061.34]
+average_list = []
+derivative_list = []
+for index in range(len(temp_list)-1):
+    temp1 = temp_list[index]
+    temp2 = temp_list[index+1]
+    int1 = int_list[index]
+    int2 = int_list[index+1]
+    derivative = (int2 - int1)/(temp2-temp1)
+    average_temp = (temp1 + temp2)/2
+    average_list.append(average_temp)
+    derivative_list.append(derivative)
+   
+    
+max_derivative = max(derivative_list)
+
+max_index = derivative_list.index(max_derivative)
+tm = average_list[30]
+print (tm)
