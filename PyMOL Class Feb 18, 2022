@@ -22,7 +22,15 @@ for index in range(len(temp_list)-1):
    
     
 max_derivative = max(derivative_list)
-
 max_index = derivative_list.index(max_derivative)
 tm = average_list[30]
-print (tm)
+#30 pulls out the 30th item in list (starting from 0), which is where the max deriv is)
+#print ('The average temp is', average_temp, ', and the max deriv is', max_derivative )
+#max_derivative = 395? is this correct?
+print('The Tm is', tm) 
+#temperature at the maximum value of the peak
+#print('Avg list is', average_list)
+#print(max_derivative)
+#print('deriv list is', derivative_list)
+
+#HW: to get tm from second derivative graph which is sinusoid
