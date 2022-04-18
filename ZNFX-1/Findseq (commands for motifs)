@@ -6,7 +6,7 @@ run findseq.py
 #For motifs, use:
 findseq starting AA. *protein ID
 findseq G. *GKT, protein ID
-
+findseq KCSEREQRFIQHLDLIEHAST, ZSCAN26
 
 #change to proper directory where findseq is:
 cd ~
