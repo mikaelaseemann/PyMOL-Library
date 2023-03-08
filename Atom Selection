@@ -1,0 +1,17 @@
+select  selection-name, selection-expression   
+                                           # The  selection-name and  
+                                           # the  selection-expression 
+                                           # are both arguments to select 
+                                           # so they are separated by a comma. 
+                                           
+EXAMPLE
+
+   PyMOL> select bb, name c+o+n+ca   # Create an atom selection named "bb"
+                                     # including all atoms named 
+                                     # "C","O","N", or "CA";
+   PyMOL> color red, bb              # color the selection red,
+   PyMOL> hide lines, bb             # hide the line representation,
+   PyMOL> show sticks, bb            # show it using the stick representation
+   
+   select bb, (name P+C5')
+   # ^use apostrophe symbol ' to indicate prime on atom
