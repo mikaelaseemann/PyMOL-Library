@@ -7,8 +7,11 @@ run findseq.py
 findseq starting AA. *protein ID
 findseq G. *GKT, protein ID
 
-#for multiple "*" (any) residues:
+#for any "*" residues:
 findseq VIG. *. *G. *. *I, FUBP3
+
+#for multiple "or" residues:
+findseq K. K+R. *. K+R, FUBP3
 
 findseq KCSEREQRFIQHLDLIEHAST, ZSCAN26
 
