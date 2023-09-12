@@ -1,0 +1,7 @@
+set cartoon_nucleic_acid_color, red
+
+set cartoon_nucleic_acid_mode, 0 # backbone follows phosphates; actually Pymol itself uses setting '4' as default
+set cartoon_ladder_mode, 1 # sticks from backbone into nucleotide
+set cartoon_ring_mode, 0 # no nucleotide rings
+set cartoon_ring_finder, 1 # ribose and base rings (not displayed since ring mode 0)
+# 
