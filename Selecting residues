@@ -3,3 +3,4 @@ show sticks, (hydrophobes and (!name c+n+o))
 color orange,hydrophobes
 disable hydrophobes
 set cartoon_smooth_loops,0
+#once you've colored all hydrophobes yellow select "settings" --> "surface" --> "default atomic"
