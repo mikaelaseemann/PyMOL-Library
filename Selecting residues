@@ -1,0 +1,5 @@
+select hydrophobes,(resn ala+gly+val+ile+leu+phe+met)
+show sticks, (hydrophobes and (!name c+n+o))
+color orange,hydrophobes
+disable hydrophobes
+set cartoon_smooth_loops,0
