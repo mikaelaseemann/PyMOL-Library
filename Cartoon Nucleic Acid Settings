@@ -12,3 +12,4 @@ set cartoon_ring_finder, 1 # ribose and base rings (not displayed since ring mod
 #4	large sphere of ring diameter at centre of ribose and each base ring
 #5	small sphere of 1/10 diameter at centre of ribose and each base ring
 #6+	appears to default to ring mode 2
+select backbone #change to cartoon style after NA in stick mode
