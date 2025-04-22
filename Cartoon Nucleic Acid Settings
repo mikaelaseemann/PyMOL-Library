@@ -4,4 +4,4 @@ set cartoon_nucleic_acid_mode, 0 # backbone follows phosphates; actually Pymol i
 set cartoon_ladder_mode, 1 # sticks from backbone into nucleotide
 set cartoon_ring_mode, 0 # no nucleotide rings
 set cartoon_ring_finder, 1 # ribose and base rings (not displayed since ring mode 0)
-# 
+# Settings> "Cartoon" > "Rings and Bases" > "Filled Rings (with border)"
